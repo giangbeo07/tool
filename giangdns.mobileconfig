@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>DNSSettings</key>
+			<dict>
+				<key>DNSProtocol</key>
+				<string>HTTPS</string>
+				<key>ServerURL</key>
+				<string>https://d.adguard-dns.com/dns-query/379512d6</string>
+			</dict>
+			<key>OnDemandRules</key>
+			<array>
+				<dict>
+					<key>Action</key>
+					<string>Connect</string>
+					<key>InterfaceTypeMatch</key>
+					<string>WiFi</string>
+				</dict>
+				<dict>
+					<key>Action</key>
+					<string>Connect</string>
+					<key>InterfaceTypeMatch</key>
+					<string>Cellular</string>
+				</dict>
+				<dict>
+					<key>Action</key>
+					<string>Disconnect</string>
+				</dict>
+			</array>
+			<key>PayloadDisplayName</key>
+			<string>DNS Chặn Thu Hồi Có Chặn ADS</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.dnsSettings.managed.1c95f537-a14c-49d8-b52d-c52790c6f11d</string>
+			<key>PayloadOrganization</key>
+			<string>GiangBeoIOS</string>
+			<key>PayloadType</key>
+			<string>com.apple.dnsSettings.managed</string>
+			<key>PayloadUUID</key>
+			<string>3806115a-2cdc-41de-acf5-f35cbb65419b</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>DNSSettings</key>
+			<dict>
+				<key>DNSProtocol</key>
+				<string>HTTPS</string>
+				<key>ServerURL</key>
+				<string>https://d.adguard-dns.com/dns-query/379512d6</string>
+			</dict>
+			<key>OnDemandRules</key>
+			<array>
+				<dict>
+					<key>Action</key>
+					<string>Connect</string>
+					<key>InterfaceTypeMatch</key>
+					<string>WiFi</string>
+				</dict>
+				<dict>
+					<key>Action</key>
+					<string>Connect</string>
+					<key>InterfaceTypeMatch</key>
+					<string>Cellular</string>
+				</dict>
+				<dict>
+					<key>Action</key>
+					<string>Disconnect</string>
+				</dict>
+			</array>
+			<key>PayloadDisplayName</key>
+			<string>DNS Chặn Thu Hồi Không Chặn ADS</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.dnsSettings.managed.eee4fc91-778b-4fae-b2de-a554e1cd228c</string>
+			<key>PayloadOrganization</key>
+			<string>GiangBeoIOS</string>
+			<key>PayloadType</key>
+			<string>com.apple.dnsSettings.managed</string>
+			<key>PayloadUUID</key>
+			<string>5e22d691-7322-4ad2-84ee-90c4cb1abeb9</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>  ❤ GiangBeoIOS 🇻🇳
+
+- I come from Vietnam 🇻🇳 
+- Made With GiangBeoIOS ❤️
+- Copyright belongs to giangios
+- Share nhớ ghi nguồn ✅
+</string>
+	<key>PayloadDisplayName</key>
+	<string>DNS Chặn Thu Hồi</string>
+	<key>PayloadIdentifier</key>
+	<string>com.giangios.apple-dns.3fde3cc3-b23a-4b2b-9fb4-87d8c901175c</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>b2fd28c4-a161-4434-850c-dc3d562865e8</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
